@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+    color: white;
+    background: #333366;
+}
+
+h1{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#description{
+    margin-bottom: 30px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.labels{
+    margin-bottom: 5px;
+}
+
+.input-field{
+    height: 40px;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.rowTab{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.dropdown{
+    height: 40px;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#main-form {
+    background: rgba(27, 27, 50, 0.8);;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 50%;
+    max-width: 900px;
+    padding-top: 20px;
+}
+
+input[type="checkbox"]{
+    margin:0 0 5px 10px;
+    
+}
+
+#submit{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    background: #37af65;
+    color: white;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+@media screen and (max-width: 1582px) {
+    .input-field {
+        width: 80%;
+    }
+    select {
+        width: 50%;
+    }
+    .dropdown{
+        width: 80%;
+    }
+
+    #comments{
+        width: 80%;
+    }
+    #submit{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .labels {
+        width: 100%;
+        text-align: left;
+    }
+    .rightTab {
+        width: 80%;
+        float: left;
+    }
+    .input-field {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
